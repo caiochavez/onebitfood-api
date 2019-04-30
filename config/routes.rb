@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get '/restaurants/search', to: 'restaurants#search'
   get '/restaurants/:id', to: 'restaurants#show'
   post '/orders', to: 'orders#create'
-  get '/orders/:id', to 'orders#show'
+  get '/orders/:id', to: 'orders#show'
 end
