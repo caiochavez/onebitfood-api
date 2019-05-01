@@ -4,5 +4,5 @@ class OrderProduct < ApplicationRecord
 
   validates_associated :order
   validates_associated :product
-  validetes :quantity, presence: true
+  validates :quantity, presence: true
 end
